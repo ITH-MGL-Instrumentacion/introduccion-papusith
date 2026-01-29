@@ -1,0 +1,142 @@
+# =============================================================================
+# GitHub Classroom - Introducción a ITH/Robótica
+# .gitignore para LaTeX, Arduino y Python
+# =============================================================================
+
+# ============================================================================
+# Python
+# ============================================================================
+# Directorio virtual de Python
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos compilados y caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribución y construcción
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes de prueba
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================================================
+# LaTeX
+# ============================================================================
+## Archivos compilados
+*/reporte.pdf
+*.dvi
+*.ps
+*.out
+
+## Archivos intermedios
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.bcf
+*.blg
+*.lof
+*.lot
+*.run.xml
+*.toc
+*.xdv
+
+## Archivos temporales de LaTeX
+*~
+*.lyx~
+*.bak
+*.backup
+
+## Directorios de compilación
+latex_build/
+build/
+
+# ============================================================================
+# Arduino
+# ============================================================================
+# Archivos compilados
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+
+# Directorios temporales de Arduino
+build/
+.build/
+*.tmp
+
+# Archivos de configuración local
+arduino-ide.json
+
+# ============================================================================
+# Sistema Operativo
+# ============================================================================
+# Windows
+Thumbs.db
+*.lnk
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+*~
+
+# ============================================================================
+# Otros
+# ============================================================================
+# Archivos de configuración personal
+*.local
+config.local.*
+secrets.json
+.env
+.specstory/
+
+# Archivos temporales
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Carpeta de descargas
+downloads/
